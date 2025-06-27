@@ -12,7 +12,7 @@ let loginPage;
 let screenshotUtil
 
 
-describe("expected Credentials", () => {
+describe("Expected Credentials", () => {
 
     before(async () => {
         loginPage = new LoginPage("");

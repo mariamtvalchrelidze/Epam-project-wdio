@@ -17,7 +17,7 @@ describe("Empty Password", () => {
 
     });
 
-    it("should test Login form with empty password", async () => {
+    it("Should test Login form with empty password", async () => {
         const loginPage = new LoginPage();
         await loginPage.setCredentials({ username: 'Test', password: 'Test' });
         await loginPage.clearPasswordInput();

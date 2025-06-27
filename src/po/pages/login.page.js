@@ -40,7 +40,6 @@ class LoginPage extends BasePage {
 
     async setCredentials(credentials){
         log.info('Setting credentials: ', credentials.username, credentials.password);
-        // set credentials in parallel
         await this.usernameInput.setValue(credentials.username)
         await this.passwordInput.setValue(credentials.password)
     }

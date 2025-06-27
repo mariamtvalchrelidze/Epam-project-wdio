@@ -18,7 +18,7 @@ describe("Empty Credentials", () => {
         await screenshotUtil.createSessionFolder('empty-credentials');
     });
 
-    it("should test Login form with empty credential", async () => {
+    it("Should test Login form with empty credential", async () => {
         await loginPage.setCredentials({ username: 'Test', password: 'Test' });
         await loginPage.clearInputs();
         await screenshotUtil.takeScreenShot('empty-credentials-before-login');
