@@ -11,8 +11,9 @@ A program that tests the login page of [https://www.saucedemo.com](https://www.s
 
 ## Installation
 ```bash
-git clone <repository-url>
-cd <project-name>
+git clone https://github.com/mariamtvalchrelidze/Epam-project-wdio.git
+cd Epam-project-wdio
+
 ```
 
 ```bash
