@@ -8,7 +8,7 @@ const messages = Messages.messages;
 let loginPage;
 let screenshotUtil
 
-describe("Empty Credentials", () => {
+describe("UC-1: Empty Credentials", () => {
 
     before(async () => {
         loginPage = new LoginPage("");

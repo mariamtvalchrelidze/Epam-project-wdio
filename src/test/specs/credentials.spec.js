@@ -12,7 +12,7 @@ let loginPage;
 let screenshotUtil
 
 
-describe("Expected Credentials", () => {
+describe("UC-3: Expected Credentials", () => {
 
     before(async () => {
         loginPage = new LoginPage("");
@@ -21,7 +21,7 @@ describe("Expected Credentials", () => {
         await screenshotUtil.createSessionFolder('credentials');
     });
 
-    it("should test Login form with expected credential", async () => {
+    it("Should test Login form with expected credential", async () => {
         for (const credential of credentials) {
             await loginPage.open();
 

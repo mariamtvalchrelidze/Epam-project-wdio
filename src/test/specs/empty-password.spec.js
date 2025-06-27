@@ -6,7 +6,7 @@ import Messages from '../../data/messages.js';
 let loginPage;
 let screenshotUtil;
 const messages = Messages.messages;
-describe("Empty Password", () => {
+describe("UC-2: Empty Password", () => {
 
     before(async() => {
         loginPage = new LoginPage("");
